@@ -21,6 +21,7 @@ p{
 }
 
 .photo-container{
+    position: relative;
     text-align: center;
     margin: 15px auto;
     width: 300px;
@@ -36,14 +37,13 @@ p{
 }
 
 .photo-overlay{
-    color: #fff;
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px; 
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, .5);
@@ -57,7 +57,9 @@ p{
 
 .photo-overlay:hover{
     opacity: 1;
+    
 }
+
 
 .photo img{
     transition: transform .5s;
